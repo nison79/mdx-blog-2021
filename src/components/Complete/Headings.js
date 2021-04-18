@@ -22,7 +22,10 @@ const myH2 = ({ children, title }) => {
   )
 }
 const HeadingTwo = styled.div`
-  margin: 2rem 0;
+  margin: 2.5rem 0;
+  h2 {
+    font-size:4rem;
+  }
   .underline {
     width: 5rem;
     height: 5px;

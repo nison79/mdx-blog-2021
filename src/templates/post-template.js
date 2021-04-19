@@ -6,13 +6,15 @@ import Image from 'gatsby-image'
 import Banner from '../components/Banner'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import SEO from '../components/SEO'
 
 
 
 const PostTemplate = ({data}) => {
-  const {mdx:{frontmatter:{title,category,image,date},body}} =data
+  const {mdx:{frontmatter:{title,category,image,date,slug},body}} =data
   return (
     <Layout>
+      <SEO title={`${slug}`}/>
         <Hero />
         <Wrapper>
           <article>

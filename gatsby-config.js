@@ -5,7 +5,7 @@ module.exports = {
     titleTemplate: `%s | MDX Blog`,
     url: `https://gatsby-mdx-blog-course-project.netlify.app/`,
     image: `mainImg.png`,
-    twitterUsername: `@john_smilga`,
+    twitterUsername: `@gnikoglou79`,
   },
   plugins: [
     

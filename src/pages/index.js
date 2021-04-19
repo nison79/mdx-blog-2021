@@ -11,6 +11,7 @@ const IndexPage = ({data}) => {
   const {allMdx:{nodes:posts}}=data;
   return (
     <Layout>
+      <SEO title="Home"/>
       <Hero showPerson />
       <Posts posts={posts} title="recently published" />
     </Layout>
